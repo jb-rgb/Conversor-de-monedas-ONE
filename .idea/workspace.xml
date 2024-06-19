@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480927ca-2cc2-43c9-9eca-4f429e4d46a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/consultaapi/Consulta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/modelos/Conversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/principal/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/consultaapi/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/consultaapi/Consulta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/modelos/Conversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/modelos/Conversor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -39,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Principal.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",

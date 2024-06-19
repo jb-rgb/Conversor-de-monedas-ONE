@@ -7,6 +7,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.URI;
 import java.net.http.HttpResponse;
+import java.util.Map;
 
 public class Consulta {
     public Conversor obtenerTasasDeCambio(String moneda) {
@@ -20,7 +21,10 @@ public class Consulta {
         try {
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
-            return new Gson().fromJson(response.body(), Conversor.class);
+            Conversor conversor = new Gson().fromJson(response.body(), Conversor.class);
+            Map<String, Double> tasasDeCambio = conversor.conversion_rates();
+            System.out.println("Tasas de cambio para la moneda " + moneda + ":");
+            return new Conversor(tasasDeCambio);
         } catch (Exception e) {
             throw new RuntimeException("No encontré las tasas de cambio de la moneda " + moneda + ".");
         }
