@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480927ca-2cc2-43c9-9eca-4f429e4d46a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/calculos/CalculosConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/principal/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversorDeMonedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conversorDeMonedas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/consultaapi/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/consultaapi/Consulta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/modelos/Conversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/modelos/Conversor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/conversordemonedas/principal/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,10 +46,10 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jorge/OneDrive/Documents/ProgramasJava/conversorDeMonedas",
+    "last_opened_file_path": "/home/balderik/Descargas/gson-2.10.1.jar",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

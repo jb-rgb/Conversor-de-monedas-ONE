@@ -2,6 +2,8 @@ package com.aluracursos.conversordemonedas.consultaapi;
 
 import com.aluracursos.conversordemonedas.modelos.Conversor;
 import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -21,9 +23,12 @@ public class Consulta {
         try {
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
-            Conversor conversor = new Gson().fromJson(response.body(), Conversor.class);
+            // Parsear el JSON
+            JsonObject jsonObject = JsonParser.parseString(response.body()).getAsJsonObject();
+            // Convertir el JSON a un objeto Conversor
+            Conversor conversor = new Gson().fromJson(jsonObject, Conversor.class);
+            // Retornar el objeto Conversor
             Map<String, Double> tasasDeCambio = conversor.conversion_rates();
-            System.out.println("Tasas de cambio para la moneda " + moneda + ":");
             return new Conversor(tasasDeCambio);
         } catch (Exception e) {
             throw new RuntimeException("No encontré las tasas de cambio de la moneda " + moneda + ".");
