@@ -20,6 +20,7 @@ public class Principal {
         while (opc !=  7) {
             try {
 
+                // Mostrar el menú de opciones al usuario
                 System.out.println("=================================================");
                 System.out.println();
                 System.out.println("Sea bienvenido/a al Conversor de Moneda =)");
@@ -34,6 +35,7 @@ public class Principal {
                 System.out.println();
                 System.out.print("Ingrese una opción válida: ");
                 opc = sc.nextInt();
+                // Si la opción es 7, salir del bucle y terminar el programa
                 if (opc == 7) {
                     break;
                 }
@@ -45,6 +47,7 @@ public class Principal {
                 System.out.println();
                 System.out.println("=================================================\n");
 
+                // Realizar la conversión basado en la opción seleccionada por el usuario
                 switch (opc) {
                     case 1:
                         conversor = consulta.obtenerTasasDeCambio("USD");
@@ -82,8 +85,10 @@ public class Principal {
                         System.out.println("Opción inválida\n");
                 }
             } catch (InputMismatchException e) {
+                // Captura la excepción si el usuario ingresa un valor no numérico
                 System.out.println("\n=================================================");
                 System.out.println("\nError: Entrada inválida. Por favor, ingrese un número válido.\n");
+                // Limpia el buffer de entrada
                 sc.next();
             }
         }
