@@ -61,3 +61,23 @@ El proyecto tiene previstas las siguientes mejoras:
 ## Autor
 
 Este proyecto fue realizado por [Jorge Barahona](https://github.com/jb-rgb).
+
+## Capturas de pantalla
+
+### Menú Principal
+![Menú Principal](screenshots/menuPrincipal.png)
+
+### Conversión de Dólar a Peso Mexicano
+![Conversión de Dólar a Peso Mexicano](screenshots/dolarPesoMexicano.png)
+
+### Coversión de Peso Mexicano a Dólar
+![Conversión de Peso Mexicano a Dolar](screenshots/pesoMexicanoDolar.png)
+
+### Opción Inválida
+![Opción Inválida](screenshots/opcionInvalida.png)
+
+### Se introdujo un valor no númerico
+![Se introdujo un valor no númerico](screenshots/introducirValorNoNumerico.png)
+
+### Terminar programa
+![Terminar programa](screenshots/terminarPrograma.png)
