@@ -35,10 +35,19 @@ public class Principal {
                 System.out.println();
                 System.out.print("Ingrese una opción válida: ");
                 opc = sc.nextInt();
+
                 // Si la opción es 7, salir del bucle y terminar el programa
                 if (opc == 7) {
                     break;
                 }
+
+                // Verificar si la opción ingresada es válida (entre 1 y 6)
+                if (opc < 1 || opc > 7) {
+                    System.out.println("\n=================================================\n");
+                    System.out.println("Opción inválida\n");
+                    continue; // Volver al bucle
+                }
+
                 System.out.println();
                 System.out.println("=================================================");
                 System.out.println();
@@ -79,10 +88,6 @@ public class Principal {
                         cantidadConvertida = calculos.convertir(moneda, "USD", conversor);
                         System.out.println("El valor " + moneda + " [COP] corresponde al valor final de " + cantidadConvertida + " [USD]\n");
                         break;
-                    case 7:
-                        break;
-                    default:
-                        System.out.println("Opción inválida\n");
                 }
             } catch (InputMismatchException e) {
                 // Captura la excepción si el usuario ingresa un valor no numérico
