@@ -40,6 +40,7 @@ El conversor permite realizar conversiones entre las siguientes monedas:
     URI direccion = URI.create("https://v6.exchangerate-api.com/v6/tu_clave_de_api/latest/" + moneda);
     ```
    Donde `tu_clave_de_api` es la clave de API que obtienes de la página [ExchangeRate API](https://www.exchangerate-api.com/) al hacer tu registro.
+> **Nota:** La clave de API usada en el desarrollo original ya está desactivada. Es necesario que obtengas tu propia clave de API.
 
 6. Abre el proyecto en IntelliJ IDEA y asegúrate de que las dependencias han sido correctamente añadidas.
 
